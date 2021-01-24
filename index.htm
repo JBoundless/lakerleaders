@@ -5,13 +5,23 @@ body {
   color: yellow;
   text-align: center;
 }
+  .card {
+      border-radius: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);  /* This will produce the blur */
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 20%
+  }
 </style>
 <body>
 <h1>Laker Leaders</h1>
 <p>Welcome to Laker Leaders, the site to find out "Who led the Lakers" in different statistical categories through Data Visualization</p>
-<div class="nav-bar">
-    <nav class="nav-bar__Items" id="nav-bar">
-      <div class="nav-bar__Link nav-bar__Link-brand">
+<div class="card">
 <ul>
 <div class="2010-11 Lakers"><li><a href='201011Lakers.html'>2010-11 Laker Leaders</div></li></a>
 <div class="2011-12 Lakers"><li><a href='201112Lakers.html'>2011-12 Laker Leaders</div></li></a>
